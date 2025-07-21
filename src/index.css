@@ -22,4 +22,13 @@
         transform: scale(1.03);
         transition: 0.3s ease-in-out;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-      }
+}
+.card-info {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.card-info:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0 green,0 blue,0.15 alpha);
+
+}
