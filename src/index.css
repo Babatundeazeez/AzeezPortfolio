@@ -1,0 +1,25 @@
+.brandLogo{
+    width: 5rem;
+    height: auto;
+}
+.tops{
+    margin-top: 100px;
+}
+.cursor{
+    display: inline-block;
+    width: 1px;
+    background-color: black;
+    animation: blink 0.7s steps(2, start) infinite;
+}
+.hover-effect:hover{
+    background-color: #34a540;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+        transform: scale(1.03);
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
